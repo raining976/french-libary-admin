@@ -1,0 +1,7 @@
+{
+  "name": "books_admin",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
