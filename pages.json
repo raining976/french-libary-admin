@@ -1,0 +1,62 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "法语图书管理"
+			}
+		}, {
+			"path": "pages/users/users",
+			"style": {
+				"navigationBarTitleText": "用户管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/borrow-list/borrow-list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/books/books",
+			"style": {
+				"navigationBarTitleText": "图书管理",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"topWindow": {
+		"path": "pages/responsive/top-window", // 指定 topWindow 页面文件
+		"style": {
+			"height": "44px"
+		}
+	},
+	"leftWindow": {
+		"path": "pages/responsive/left-window", // 指定 leftWindow 页面文件
+		"style": {
+			"width": "200px"
+		},
+		"matchMedia": {
+		    "minWidth": 768 //生效条件，当窗口宽度大于768px时显示
+		  }
+	}
+	// "rightWindow": {
+	//   "path": "pages/responsive/right-window.vue", // 指定 rightWindow 页面文件
+	//   "style": {
+	//     "width": "300px" // 页面宽度
+	//   },
+	//   "matchMedia": {
+	//     "minWidth": 768 //生效条件，当窗口宽度大于768px时显示
+	//   }
+	// }
+}
